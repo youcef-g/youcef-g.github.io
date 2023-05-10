@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ApplicationJS</title>
+    <link rel="stylesheet" href="applijs.css">
+</head>
+
+<body>
+
+    <div class="box-appli1">
+        <h3>Generateur de couleur</h3>
+        <div class="color">
+            <p>click ici !</p>
+
+        </div>
+    </div>
+    <div class="box-appli2">
+        <h3>To do list</h3>
+        <form action="">
+            <input type="text" id="item" placeholder="À faire" minlength="2" autocomplete="off" required>
+        </form>
+
+        <ul id="list">
+
+        </ul>
+    </div>
+    <div class="box-appli3">
+        <h3>compte à rebour</h3>
+        <form id="countdown">
+            <input type="number" min="1" max="99" size="1" maxlength="2" id="choice" placeholder="min">
+            <input id="start" type="submit" value="GO">
+        </form>
+        <div id="countdownDisplay"></div>
+    </div>
+
+
+    <script src="./applijs.js"></script>
+</body>
+
+</html>
