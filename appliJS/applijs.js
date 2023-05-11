@@ -70,7 +70,6 @@ function count() {
     countdownDisplay.textContent = "Terminé !!";
     clearInterval(interval);
   }
-  totalSeconds--;
 }
 
 countdown.addEventListener("submit", (e) => {
